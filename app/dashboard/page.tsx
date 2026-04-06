@@ -122,7 +122,7 @@ export default function DashboardPage() {
         {/* Teacher Info + Subscription */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
           <TeacherInfoCard teacher={dashboardData.teacher} />
-          <SubscriptionCard subscription={dashboardData.subscription} />
+          <SubscriptionCard subscription={dashboardData.subscription}/>
         </div>
 
         {/* API Usage

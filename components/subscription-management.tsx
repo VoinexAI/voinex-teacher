@@ -316,15 +316,9 @@ export function SubscriptionManagement() {
               Quick Actions
             </h3>
             <div className="space-y-2">
-              <button className="w-full px-4 py-2 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 flex items-center justify-center gap-2">
+              <button onClick={() => window.location.href = 'https://www.voinex.in/dashboard/subscription'} className="w-full px-4 py-2 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 flex items-center justify-center gap-2">
                 <RotateCw size={16} />
                 Upgrade Plan
-              </button>
-              <button className="w-full px-4 py-2 rounded-lg border border-border text-foreground font-semibold hover:bg-input">
-                Manage Billing
-              </button>
-              <button className="w-full px-4 py-2 rounded-lg border border-border text-foreground font-semibold hover:bg-input">
-                View Invoices
               </button>
             </div>
           </Card>
